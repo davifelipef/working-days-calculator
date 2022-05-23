@@ -13,16 +13,16 @@ h2 {
     font-size:1.1em;
 }
 #idate {
-    width:26vw;
+    width:100%;
     text-align:center;
 }
 #inumber {
-    width:12vw;
+    width:100%;
     text-align:center;
 }
 #isubmit {
     height: 4.5vh;
-    width: 30vw;
+    width: 100%;
     text-align:center;
 }
 p {
