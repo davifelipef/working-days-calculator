@@ -1,0 +1,33 @@
+body {
+    min-height: 100vh;
+    background:linear-gradient(25deg, #4B4E53, #000000);
+    background-repeat: no-repeat;
+    color: #ebeded;
+    text-align:center;
+    padding:10vw;
+}
+h1 {
+    font-size:1.5em;
+}
+h2 {
+    font-size:1.1em;
+}
+#idate {
+    width:26vw;
+    text-align:center;
+}
+#inumber {
+    width:12vw;
+    text-align:center;
+}
+#isubmit {
+    height: 4.5vh;
+    width: 30vw;
+    text-align:center;
+}
+p {
+    font-size: 1.3em;
+    color: orange;
+    text-align: justify;
+    line-height:4vh;
+}

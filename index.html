@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://davifelipef.github.io/working-days-calculator/style.css">
+      <script src="https://davifelipef.github.io/working-days-calculator/script.js"></script>
+        <title>Working Days Calculator</title>
+    </head>
+    <body>
+    <h1>Calculadora de Dias Úteis</h1>
+    <br>
+    <form id="calculator" action="">
+    <h2>Selecione uma data:</h2>         
+    <input type="date" id="idate" onchange="dateCheck()" required/>   
+    <br>
+    <br>
+    <h2>Selecione o número de dias úteis que quer adicionar após a data selecionada acima:</h2>  
+    <input type="number" id="inumber" min="1" onchange="numberCheck()" required/>
+    <br>
+    <br>
+    <h2>Clique aqui para fazer o cálculo:</h2>
+    <input type="submit" id="isubmit" value="Calcular data" onclick="calcDate()"/>
+    <p id="result"></p>
+    </form>
+    </body>
+</html>
