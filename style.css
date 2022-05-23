@@ -22,6 +22,9 @@ h2 {
     height: 4.5vh;
     text-align:center;
 }
+#result {
+    text-align:center;
+}
 p {
     font-size: 1.3em;
     color: orange;
