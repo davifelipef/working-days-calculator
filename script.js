@@ -89,7 +89,7 @@ the date*/
     //group future day, month and year
     var ftdategp = ftdaynumber + '/' + ftmonth + '/' + ftyear;
     //TODO displays the result
-    document.getElementById("result").innerHTML = "A data inicial é " + initday + ", " + initdategp + ".<br/>Foram adicionados "+y+ " dias úteis à data.<br/>A data futura é "+ftday+", "+ftdategp+ ".";
+    document.getElementById("result").innerHTML = "A data inicial é " + initday + ", " + initdategp + ".<br/>\nForam adicionados "+y+ " dias úteis à data.<br/>\nA data futura é "+ftday+", "+ftdategp+ ".";
     //logs used during development
     /*console.log("Os dias selecionados para adição à data foram: "+ y);
     console.log("Foram adicionados "+ finalDateInt + " dias corridos à data.");
